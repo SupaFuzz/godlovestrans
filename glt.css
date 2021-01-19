@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('./gfx/Comfortaa.woff2') format("woff2");
+}
+/*
+html, body {
+  position:                     fixed;
+  overflow:                     hidden;
+  height:                       100%;
+  width:                        100%;
+}
+*/
+body {
+	font-family:				'Comfortaa';
+	margin:						0;
+	padding:					0;
+	text-align:					center;
+    background-color:           rgb(0, 0, 0);
+    color:                      rgb(240, 240, 240);
+}
+
+.main {
+    display: grid;
+    place-items:center;
+}
+.title {
+    max-width: 66%;
+}
+.title p {
+    text-align: left;
+}
+.resources {
+    padding: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    border-radius: 1em;
+    max-width: 80%;
+    background: radial-gradient(rgba(0, 101, 179, .5), rgba(0, 101, 179, .1));
+}
+.resources a {
+    font-weight: bolder;
+    color: rgb(230, 0, 161);
+}
