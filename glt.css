@@ -29,6 +29,9 @@ body {
 .title p {
     text-align: left;
 }
+p {
+    font-size: 1.25em;
+}
 .resources {
     padding: 1.5em;
     border: 2px solid rgb(0, 101, 179);
