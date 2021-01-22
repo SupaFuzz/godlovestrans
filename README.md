@@ -50,7 +50,7 @@ Posts can be anonymous, but part of the responsibility of writing here is making
 
 LOL. you aren't wrong. This whole thing is like 10 minutes old. I know how to make it good for sure. I've been writing sites and apps for nearly 30 years. Long story short is that I'm in the middle of finishing a different project for work. Once that's done in the next few weeks, this project will get the sustained attention it needs to look the part.
 
-I don't feel comfortable writing about it publicly, but suffice it to had a *religious experience* of some kind that laid the very small responsibility of engineering this and getting it running on my shoulders. I can't tell you how, but I know this responsibility is mine, and as it so happens ... while writing the content isn't something I'm qualified to do, building a site for it sure is.
+I don't feel comfortable writing about it publicly, but the long and short of it, is that had a *religious experience* of some kind that laid the very small responsibility of engineering this and getting it running on my shoulders. I can't tell you how, but I know this responsibility is mine, and as it so happens ... while writing the content isn't something I'm qualified to do, building a site for it sure is.
 
 
 ## CONTACT ME, LET'S DO THIS
