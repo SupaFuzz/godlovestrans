@@ -10,7 +10,7 @@ When I look around the internet, and the religious scene, I'm not getting a lot 
 
 ## SO WHAT IS IT, EXACTLY?
 
-Well let me start by just saying what is isn't.
+Well let me start by just saying what it isn't.
 
 * It's not a blog
 * It's not an "online community"
