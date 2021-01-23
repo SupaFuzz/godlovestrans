@@ -39,7 +39,7 @@ p {
     max-width: 80%;
     background: radial-gradient(rgba(0, 101, 179, .5), rgba(0, 101, 179, .1));
 }
-.resources a {
+a {
     font-weight: bolder;
     color: rgb(230, 0, 161);
 }
