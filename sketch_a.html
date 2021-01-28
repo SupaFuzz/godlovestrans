@@ -6,7 +6,9 @@
     <style>
         body {
             background-color: rgb(22, 23, 25);
-            width: 88%;
+            padding: 0;
+            margin: 0;
+
         }
         @font-face {
             font-family: 'Comfortaa';
@@ -64,15 +66,26 @@
             background: radial-gradient(rgba(0, 101, 179, .1), rgba(0, 101, 179, .4));
             color: rgba(227, 227, 227, .5);
         }
+        .bdyCtr {
+            display: grid;
+            place-items: center;
+            grid-template-columns: 1fr;
+        }
         .articleContainer {
             margin: 1em 2em 1em 2em;
+            max-width: 800px;
         }
         .callout {
             float: left;
             display: flex;
             place-items: center;
-            height:  55vw;
+            width: 450px;
+            height: 450px;
+
+            /*height:  55vw;
             width:  55vw;
+            */
+
             overflow: hidden;
             background: url('./gfx/mad.jpg');
             background-repeat: no-repeat;
@@ -98,7 +111,12 @@
             font-family: Raleway;
         }
         p.miniQuote {
-            font-size: 1.5em;
+            font-size: 2em;
+        }
+        p.medPimpin {
+            font-size: 1.25em;
+            background: linear-gradient(rgba(0, 101, 179, 0), rgba(0, 101, 179, .4));
+            padding: .5em;
         }
         .highlight {
             color: rgb(230, 0, 161);
@@ -115,6 +133,7 @@
             padding-left: .5em;
             font-family: Roboto;
             border-left: .5em solid rgb(0, 101, 179);
+            background: linear-gradient(to right, rgba(230, 0, 161, .1), rgba(230, 0, 161, 0))
         }
         .scriptureQuote sup {
             color: rgb(0, 101, 179);
@@ -122,6 +141,16 @@
         .ind {
             margin-left: 2em;
             display:block;
+        }
+        p {
+            font-size: 1.128em;
+        }
+        .articleMeta {
+            width: 100%;
+            border-top: 1px solid rgb(227, 227, 227);
+            color: rgb(227, 227, 227);
+            text-align: right;
+            font-family: Comfortaa;
         }
 
     </style>
@@ -138,6 +167,9 @@
             <h3 class="iss">Feb 2021</h3>
         </div>
     </div>
+
+<div class="bdyCtr">
+
     <div class="articleContainer">
         <div class="article">
             <div class="callout">
@@ -157,7 +189,7 @@
                     one of the biggest is a notion of <span class="highlight">rebirth</span> in Christ Jesus.
                 </p>
 
-                <p>Depending on whether one is Catholic or Protestant that notion of
+                <p class="medPimpin">Depending on whether one is Catholic or Protestant that notion of
                 rebirth may vary to some degree or another, however it is in fact a reality
                 of the faith for both.</p>
 
@@ -169,7 +201,7 @@
 
                 <p>It's important to remember that the Old Testament (Jeremiah 1:1) tells us that God knew who we were before we were in
                 our mother's wombs. That we have been fearfully and wonderfully made (Psalm 139:14), and that each human
-                creation is made in the likeness the image of God the Creator. According to the prophet Isaiah (Isaiah 56:4-5) Eunuchs hold a special place within God's creation:</p>
+                creation is made in the likeness the image of God the Creator. According to the prophet Isaiah (Isaiah 56:4-5), Eunuchs hold a special place within God's creation:</p>
 
                 <p class="scriptureQuote">
                     <sup>4</sup> For this is what the Lord says:<br>
@@ -196,9 +228,9 @@
                 </p>
 
                 <p>Friends think about it, transgender people are literally set apart and honored by God to serve in holy places.
-                    But if you want a more tangible way of looking at this, one that truly exemplifies Christian faith how about this ...<br><br>
+                    But if you want a more tangible way of looking at this, one that truly exemplifies Christian faith, how about this ...<br><br>
 
-                    hen one is in lockstep, in a solid relationship with Christ Jesus and the Creator God the Father, prayerful, etc.
+                    When one is in lockstep, in a solid relationship with Christ Jesus and the Creator God the Father, prayerful, etc.
                     One comes to the conclusion that the reason for years of misery, suicidal thoughts, self-harm, bullying, and overall
                     depression is <strong class="highlight">because your faith community tells you that being LGBTQI+ is sinful.</strong>
                     When you routinely, for years ask God to cure you of your sins, to make you whole (Sozo), and the one thing that God has
@@ -223,9 +255,14 @@
                         too, obviously is Creation.</p>
                 <p>May the blessings of the Lord, be with you always. World without end...</p>
             </div>
+            <div class="articleMeta">
+                Michael Angelo D'Arrigo (He/Him)<br>
+                Senior Pastor, <a href="https://www.agapefellowshipatl.org/" class="highlight">Apape Fellowship of Greater Atlanta</a><br>
+                darrigoma@gmail.com
+            </div>
         </div>
     </div>
-
+</div>
 
 </body>
 </html>
