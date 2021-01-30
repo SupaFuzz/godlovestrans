@@ -86,6 +86,78 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.callout[data-author="churchClarity"] {
+    background: url('./gfx/ChurchClarityLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="everybodyChurch"] {
+    background: url('./gfx/everybodyChurchLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="mamaBears"] {
+    background: url('./gfx/mamaBearsLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="queerTheology"] {
+    background: url('./gfx/queerTheologyLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="pastorJune"] {
+    background: url('./gfx/pastorJuneLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="pastorPaula"] {
+    background: url('./gfx/paulaStoneWilliamsLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="austenHartke"] {
+    background: url('./gfx/transformingLink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="suzanneDeWittHall"] {
+    background: url('./gfx/transfiguredLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+
 .callout[data-author="ahicox"] .author {
     padding-left: .75em;
 }
@@ -215,8 +287,8 @@ p {
     font-family: Comfortaa;
     font-size: 1.128em;
     padding: 1em;
-
 }
+
 button:focus {
     outline: none;
 }
@@ -224,4 +296,14 @@ hr {
     width: 66%;
     margin: 6em 0 8em 0;
     border-color: rgba(227, 227, 227, .5);
+}
+.bdyCtr .hdr .title {
+    margin: 0;
+    padding: 0;
+}
+.bdyCtr .hdr {
+    font-family: Comfortaa;
+    color: rgb(230, 0, 161);
+    margin: 2em;
+    padding: 1em;
 }
