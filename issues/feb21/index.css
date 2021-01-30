@@ -215,9 +215,11 @@ p.medPimpin {
 }
 .highlight {
     color: rgb(230, 0, 161);
+    font-weight: bold;
 }
 .lowlight {
     color: rgb(0, 101, 179);
+    font-weight: bold;
 }
 .articleContainer[data-open="false"] .fold {
     max-height: 0;
@@ -313,4 +315,26 @@ hr {
     color: rgb(230, 0, 161);
     margin: 2em;
     padding: 1em;
+    width: 100%;
+    padding-left: 3em;
+}
+
+.gdprStuff {
+    font-size: .75em;
+    margin-top: 10em;
+    max-width: 90%;
+    padding: .5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background: linear-gradient(rgba(227, 227, 227, .7), rgba(227, 227, 227, .4));
+    border-top: 2px solid rgba(227, 227, 227, .9);
+    border-left: 2px solid rgba(227, 227, 227, .9);
+    border-right: 2px solid rgba(227, 227, 227, .9);
+    font-family: Raleway;
+}
+
+.gdprStuff .sig {
+    width: 100%;
+    text-align: right;
+    font-style: italic;
 }
