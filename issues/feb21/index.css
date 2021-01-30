@@ -201,6 +201,13 @@ body {
 p.miniQuote {
     font-size: 2em;
 }
+p.bigQuote {
+    max-width: 50%;
+    font-size: 2em;
+    margin-left: 4em;
+    border-left: .25em solid rgb(230, 0, 161);
+    padding-left: 1em;
+}
 p.medPimpin {
     font-size: 1.25em;
     background: linear-gradient(rgba(0, 101, 179, 0), rgba(0, 101, 179, .4));
