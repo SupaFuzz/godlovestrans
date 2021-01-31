@@ -1,0 +1,34 @@
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="mad">
+            <div class="author">
+                First <br>Middle<br>Last
+            </div>
+            <div class="authorMeta">
+                (occupation), <br>
+                (thang)
+            </div>
+
+        </div>
+        <div class="articleBody">
+            <p class="miniQuote">something pithy goes here</p>
+            <p class="medPimpin">the bit that draws you in goes here ...</p>
+            <p class="fold">
+                /*
+                    the body goes here. collapse/expand is managed by the toggler in the footer
+                */
+                <h3>the whole thing goes here</h3>
+            </p>
+        </div>
+        <div class="articleMeta">
+            <div class="hdr">
+                <button class="articleToggler"><span class="action">read</span></button>
+                <h3 class="title">The Title goes here <span class="lowlight">| Feb 1, 2021</span></h3>
+            </div>
+            by (titles) name (pronouns)<br>
+            (occupation), <a href="https://godlovestrans.org/" class="highlight">A Link to your thang</a><br>
+            (additional stuff)<br>
+            (email)
+        </div>
+    </div>
+</div>
