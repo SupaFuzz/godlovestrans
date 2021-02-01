@@ -215,6 +215,14 @@ body {
 p.miniQuote {
     font-size: 2em;
 }
+p.microQuote {
+    font-size: 1.6em;
+    max-width: 66%;
+    border-left: .25em solid rgb(0, 101, 179);
+    color: rgba(227, 227, 227, .5);
+    padding-left: .5em;
+    margin-left: 4em;
+}
 p.bigQuote {
     max-width: 50%;
     font-size: 2em;
@@ -260,7 +268,7 @@ p.medPimpin {
     display:block;
 }
 p {
-    font-size: 1.128em;
+    font-size: 1.25em;
 }
 .articleMeta .title {
     margin: 0;
