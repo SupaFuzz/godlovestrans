@@ -157,6 +157,33 @@ body {
     border: 2px solid rgb(0, 101, 179);
     height: 278px;
 }
+.callout[data-author="alanWatts"] {
+    background: url('./gfx/alanWattsTheBookLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="richardRohr"] {
+    background: url('./gfx/universalChristLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="robBell"] {
+    background: url('./gfx/loveWinsLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
 .callout[data-author="danielleGrace"] {
     background: url('./gfx/danielleGrace.png');
     background-repeat: no-repeat;
@@ -359,4 +386,8 @@ hr {
     width: 100%;
     text-align: right;
     font-style: italic;
+}
+
+.comfortaa {
+    font-family: Comfortaa;
 }
