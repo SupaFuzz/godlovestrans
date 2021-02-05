@@ -12,14 +12,30 @@ When I look around the internet, and the religious scene, I'm not getting a lot 
 
 Well let me start by just saying what it isn't.
 
-* It's not a blog
+* It's not a blog (in the traditional sense anyhow)
 * It's not an "online community"
-* There will be no liking, commenting or subscribing
 * There will positively be no fundraising or money asks of any kind. Ever.
 
-I'm open to evolving the idea for sure, but initially what I have in mind is this, a site with:
 
-* A piece written by a pastor, to a trans person searching the internet for reassurance they arent going to hell.
+* **There will be no liking, commenting or subscribing**
+
+    Here's what I mean by that. Though we may end up adding very rudamentary subscription methods, such as RSS and email subscription (eventually), the main thing this site is *not*, is a way to "build an audience", for you, your book, your podcast, your album, your church etc. If you're making money off it, it does not belong here (I'm sure there are exceptions to this rule, but that's the general ethos of what we're building here).
+
+    This site is meant to be a voice of love in the darkness. Being popular, attracting clicks and views and getting twitter mentions, etc ... those things are not important toward that goal (though of course, validation is *always nice*).
+
+    Making sure this voice is available whenever and wherever a trans person is in crisis and thinks they're on the outs with God because of who they are ... even if we get three hits a year and one of them is you and one of them is me ... it's still worth it, and that is the point of this project.
+
+
+I'm open to evolving the idea for sure, but iniially here's what we've got going
+
+* Articles published in chunks, once a month because I have a day job ...
+
+* Articles, written by you. With yourself in mind, the first time you had the guts to type "transgender" into google. What would you say to yourself? What were you hoping to find. Write that. I mean it doesn't need to be "dear me ten years ago", but that's a starter.
+
+* Of those articles, at least one piece written by a pastor, to a trans person searching the internet for reassurance they aren't going to hell.
+
+* You don't have to be trans to contribute, but having trans contributors is very important. A huge part of this outreach is *reflection*. Meaning that there is no substitute for seeing your own reflection in your faith. It is important for transgender pastors to be visible to transgender people. Every day. At every opportunity. That's another reason for this site.
+
 * A collection of outside resources: books, talks, support groups, lists of therapists, affirming churches, etc.
 
 That's it, that's the *entire* idea. In a nutshell: **a lighthouse for my kind** -- to let us know we are loved in no uncertain terms, and point the direction to where more help lies.
@@ -29,8 +45,6 @@ That's it, that's the *entire* idea. In a nutshell: **a lighthouse for my kind**
 ## I NEED YOUR HELP
 
 Are you a pastor? Better yet are you a *transgender pastor*? Out or not, you have a priceless message inside of you, even without words, it is *incarnate in your very physical existence*. But maybe if you DO have words, write them down! Because now you have a place to put it on the internet, anonymously if you wish.
-
-I'd like to swap out the "letter to you from a pastor" section once a month (or maybe more frequently if that volume of material emerges from the community). The reason isn't to keep the site fresh. The reason is to reflect as many different perspectives as possible. There are an infinite variety of us out there, and we need to have an infinite number of styles, and perspectives to get that message through to every single one of us that comes looking.
 
 Do you know of more links than the pathetic 4 or 5 links I scraped off the top of my head? I need those too.
 
@@ -46,16 +60,13 @@ Here's why: *you're gonna have to know how **not** to say things that might make
 Posts can be anonymous, but part of the responsibility of writing here is making yourself available to people in crisis and pain who might read what you wrote here and need to reach out (an insta, or a twitter handle, or an email address, or a facebook ... something).
 
 
-## YEAH OK, BUT YOUR SITE LOOKS LIKE GEOCITIES, YO
+## YEAH OK, BUT YOUR SITE DESIGN ... OH HONEY ...
 
-LOL. you aren't wrong. This whole thing is like 10 minutes old. I know how to make it good for sure. I've been writing sites and apps for nearly 30 years. Long story short is that I'm in the middle of finishing a different project for work. Once that's done in the next few weeks, this project will get the sustained attention it needs to look the part.
-
-I don't feel comfortable writing about it publicly, but the long and short of it, is that had a *religious experience* of some kind that laid the very small responsibility of engineering this and getting it running on my shoulders. I can't tell you how, but I know this responsibility is mine, and as it so happens ... while writing the content isn't something I'm qualified to do, building a site for it sure is.
+it could be better. Though I've spent a whole heckuva lot of time writing sites and mobile apps, and in another world and another time, I did consider myself somewhat the visual design geek ... visual design skills are rusty on this end, putting it mildly. Hey it's github. Make a pull request, if you want. We can make this thing better together, and I'm all in for that :-)
 
 
 ## CONTACT ME, LET'S DO THIS
 
-amy@hicox.com
-
+adminAmy@godlovestrans.com
 
 https://godlovestrans.org
