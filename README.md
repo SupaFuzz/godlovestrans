@@ -62,7 +62,7 @@ Posts can be anonymous, but part of the responsibility of writing here is making
 
 ## YEAH OK, BUT YOUR SITE DESIGN ... OH HONEY ...
 
-it could be better. Though I've spent a whole heckuva lot of time writing sites and mobile apps, and in another world and another time, I did consider myself somewhat the visual design geek ... visual design skills are rusty on this end, putting it mildly. Hey it's github. Make a pull request, if you want. We can make this thing better together, and I'm all in for that :-)
+it could be better. Though I've spent a whole lot of my career writing sites and mobile apps, and in fact, another world and another time and another gig, I did consider myself somewhat the visual design geek ... visual design skills are rusty on this end, putting it mildly. Hey it's github. Make a pull request, if you want. We can make this thing better together, and I'm all in for that :-)
 
 
 ## CONTACT ME, LET'S DO THIS
