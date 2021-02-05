@@ -67,6 +67,6 @@ it could be better. Though I've spent a whole lot of my career writing sites and
 
 ## CONTACT ME, LET'S DO THIS
 
-adminAmy@godlovestrans.com
+adminAmy@godlovestrans.org
 
 https://godlovestrans.org
