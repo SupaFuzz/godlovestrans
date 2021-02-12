@@ -53,11 +53,11 @@ Do you run a support group? Do you have an affirming church? Does your church ha
 
 ## CRITERIA FOR SUBMISSIONS
 
-If you're going to write for the site, I do ask that you can prove that you know what you're talking about. You don't *need* to be a pastor, but you've got to have had some bonafide education in the pastorish areas of theology and counseling.
+If you're going to write for the site, I do ask that you can show that you know what you're talking about. You don't *need* to be a pastor, but you've got to have had some bonafide background in the pastorish areas of theology and counseling.
 
 Here's why: *you're gonna have to know how **not** to say things that might make people want to kill themselves* That is something, I can guarantee you, we are going to run into quite often round these parts.
 
-Posts can be anonymous, but part of the responsibility of writing here is making yourself available to people in crisis and pain who might read what you wrote here and need to reach out (an insta, or a twitter handle, or an email address, or a facebook ... something).
+Posts can be anonymous, but part of the responsibility of writing here is making yourself available to people in crisis and pain who might read what you wrote, and need to reach out (an insta, or a twitter handle, or an email address, or a facebook ... something).
 
 
 ## YEAH OK, BUT YOUR SITE DESIGN ... OH HONEY ...
