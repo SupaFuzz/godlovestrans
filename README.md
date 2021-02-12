@@ -26,7 +26,7 @@ Well let me start by just saying what it isn't.
     Making sure this voice is available whenever and wherever a trans person is in crisis and thinks they're on the outs with God because of who they are ... even if we get three hits a year and one of them is you and one of them is me ... it's still worth it, and that is the point of this project.
 
 
-I'm open to evolving the idea for sure, but iniially here's what we've got going
+I'm open to evolving the idea for sure, but initially, here's what we've got going
 
 * Articles published in chunks, once a month because I have a day job ...
 
