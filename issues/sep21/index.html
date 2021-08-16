@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPHME06JXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KPHME06JXX');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta property="og:site_name" content="#godlovestrans" />
+    <meta property="og:title" content="God Loves You Because You're Transgender" />
+    <meta property="og:description" content="For Trans People, By Trans People" />
+    <meta property="og:image" content="https://godlovestrans.org/issues/feb21/gfx/siteSocialShareE.png" />
+    <meta property="og:url" content="https://godlovestrans.org" />
+    <meta property="og:type" content="blog" />
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- start it up -->
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(evt){
+
+            /*
+                by default, buttons are hidden and all sections are expanded
+                IF the client has javascript enabled, this will get executed
+                collapsing evertything, setting up and showing buttons.
+
+                this should be the approach of the entire project.
+                accessibility above all else.
+            */
+            // setup all of the articleContainers with collapsable sections
+            document.body.querySelectorAll('.articleContainer').forEach(function(articleContainer){
+                // if the article has a fold
+                let fold = articleContainer.querySelector('div.fold');
+                if (fold instanceof Element){
+
+                    // if the article has an articleToggler button, collapse the section and setup the button
+                    let btn = articleContainer.querySelector('button.articleToggler');
+                    if (btn instanceof Element){
+                        // snag the expanded dimensions before we collapse
+                        let expHeight = articleContainer.getBoundingClientRect().height;
+
+                        // default collapse the section
+                        articleContainer.dataset.open = "false";
+
+                        // hook up the button
+                        btn.style.visibility = 'visible';
+                        btn.addEventListener('click', function(e){
+                            // shenanigans for jazzhands
+                            fold.style.maxHeight = (articleContainer.dataset.open == "true")?'0px':`${expHeight}px`;
+
+                            // toggle it (no jazzhands)
+                            articleContainer.dataset.open = (articleContainer.dataset.open == "true")?"false":"true";
+                        });
+                    }
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="titleCard">
+        <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span></h1>
+        <h2 class="sbh">God Loves You Because You Are Transgender</h2>
+        <div class="mnuBar">
+            <div class="btnContainer">
+                <!-- <a href="./archive">archive</a> -->
+                <a href="./resources.html">resources</a>
+            </div>
+            <h3 class="iss">Fall 2021</h3>
+        </div>
+    </div>
+
+<div class="bdyCtr">
+
+    <!-- article #1 -->
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="danielleGrace">
+                &nbsp;
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote">
+                    <span class="highlight">Pastor Danielle Grace</span><br>
+                    <span class="lowlight">Transgender and … Christian?</span>
+                </p>
+                <p class="medPimpin">
+                    &nbsp;<br>
+                    I really thought in order for me to be <span class="highlight">transgender</span>,
+                    I would have to totally <span class="lowlight">kick my faith to the curb.
+                    &nbsp;<br>
+                </p>
+                <div class="fold">
+                    <p class="miniQuote">
+                        This morning I was watching <a class="highlight" href="https://www.youtube.com/c/PastorJune/featured">Pastor June Joplin’s</a> most recent YouTube update on her life and ministry
+                         and she mentioned that there are transgender people who are Christian, sometimes to the shock and dismay of others
+                     </p>
+
+                    <p>
+                        She, as a transgender woman, is also a pastor who publicly came out in a message and in short order was fired from her church.
+                        Thankfully she found an amazing opportunity to minister again through MCC-Toronto.
+                    </p>
+                    <p>
+                        Going back to that idea of being both transgender and christian. There are a lot of people, and I mean A LOT of people, who
+                        believe that ne’er the twain shall meet. In other words, you cannot be both transgender and also be a christian in their mind.
+                        These are the same people that have such a small box for their god that they have already ruled that anyone who falls into the
+                        spectrum of being LGBTQ+ is obviously “lost” and their souls are endangered.
+                    </p>
+                    <p>
+                        For me, growing up with a religious background, this worried me. When I found personal faith as an 18 year old college student
+                        I hoped that faith would not only save me but also “fix” me or “heal” me of what I had assumed was a perversion or sin. Those
+                        ideas weren’t natural, they were sadly forced upon into my mind through years of evangelical preaching and teaching.
+                    </p>
+                    <p>
+                        <span class="highlight">I’ll be honest, I really thought in order for me to be transgender I would have to totally kick my faith to the curb.</span>
+                        Be it the catholic church I grew up in, or the baptist church I found myself in later in life; I didn’t see where christian faith
+                        and being transgender could ever survive. It probably didn’t help that the few times I came across someone who was transgender
+                        while growing up in the 70’s and 80’s, usually in the media, they weren’t presented in a way that proclaimed “God loves me as
+                        I am.” Honestly, it was usually because they were taught that God hates them.
+                    </p>
+                    <div class="gfxFloatCtr"><img src="./gfx/cross.png" width="395" height="310" /></div>
+                    <p>
+                        When I was in seminary in the mid 90’s I was finding my way around the growing World Wide Web and as a result exploring things
+                        that I had thought and felt most of my growing years. That is also when I discovered a new to me term, it was “transgender.”
+                        That one made a lot more sense to me than the terms I heard growing up. One was <span class="highlight">“transsexual”</span> which made me think that that who
+                        I was all about who I wanted to sleep with. The other was <span class="highlight">“transvestite”</span> which I heard as a kid in the early and mid 1970’s and
+                        even to my unknowing ears it sounded derogatory at best.
+                    </p>
+                    <p class="bigQuote">
+                        But <span class="highlight">transgender</span>, that made sense to me.
+                    </p>
+                    <p>
+                        Gender being the societal norms of male and female that we were taught and ingrained in
+                        us. In elementary school the boys played here and the girls played there. In middle school the boys played football and the girls
+                        did cheer or dance, maybe volleyball. In high school the boys had their locker room and the girls had theirs. And of course there
+                        was always those dress codes which seemed to favor keeping the boys and their raging hormones under control at the expense of the
+                        comfort of the girls.
+                    </p>
+                    <p>
+                        I didn’t have to do much research back then to realize that transgender is what I was, it is who I am. When I did my first
+                        round of gender therapy online in 2019 it was only confirmed, along with gender dysphoria. I wish I could say I accepted
+                        myself at that time, but it was still a work in progress that I’m still working on.
+                    </p>
+                    <p>
+                        Around the same time, in the mid 90’s, when I discovered what being transgender meant I began to explore the idea of being
+                        trans and also being a christian. Could I really follow the Jesus who I trusted when I was 18 and still be transgender? Could
+                        God love me if I would eventually pursue transition or would I have to keep that side of me stuffed in a closet and pray that
+                        it never comes out? Thankfully I found my answer through Yahoo Groups.
+                    </p>
+                    <p>
+                        Oh, I’m so dating myself here, aren’t I? Some of us remember the Yahoo Groups, set up similar to groups you find on Facebook
+                        now, except it was through the Yahoo web service. It was in Yahoo Groups I found a group called <span class="highlight">“Transgender Christians”</span>,
+                        organized by a woman who is trans herself, but also actively involved in her local church…an evangelical church if I recall
+                        correctly of all places! I recently messaged her to thank her for that early work she did because it might have helped save
+                        my life more than once.
+                    </p>
+                    <p>
+                        Over the next 15-20 years I would find myself entering and exiting that group as I tried to accept myself as transgender and
+                        then allow guilt and shame to lead me to a purge of those things that helped me find wholeness. And every time I went back in,
+                        there was a sense of acceptance by those who like me struggled to reconcile to the two, but hung on to faith none the less.
+
+                        Isn’t that what a church should be like any way? We come together, unite with our struggles and find someone in common that builds
+                        our faith.
+                    </p>
+                    <p class="bigQuote">
+                       Could I really follow the Jesus who I trusted when I was 18 and still be transgender? Could
+                       God love me if I would eventually pursue transition or would I have to keep that side of me stuffed in a closet and pray that
+                       it never comes out?
+                    </p>
+                    <p>
+                        I’ll be honest, if it weren’t for the deconstruction of my strong evangelical, borderline calvinist views of faith, I might not
+                        be where I am today in terms of self acceptance. I hated myself for being transgender and didn’t see how I can truly call myself a
+                        “christian” by letting that “sin of being transgender” define me. But once those theological blinders came off and grace became
+                        more of a reality to me, I rediscovered a faith that is stronger today than ever.
+                    </p>
+                    <p class="miniQuote">
+                        I am Danielle Grace, and <span class="highlight">I am a transgender woman and I am a follower of Jesus.</span> Accepting myself as the previous has grown me in the
+                        latter. And while others might doubt my salvation and condemn me to the “hell” they have created in their minds, I know who I am.
+                        And it is in that faith I believe the words I read in Romans 8:37-39 to be true:
+                    </p>
+                    <p class="scriptureQuote">
+                        “No, in all these things we are more than conquerors through him who loved us. <br><br><sup>38</sup> For I am convinced that neither death nor life,
+                        neither angels nor demons, neither the present nor the future, nor any powers, <br><br><sup>39</sup> neither height nor depth, nor anything else in
+                        all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.” (NIV)
+                    </p>
+                    <p>
+                        My hope and my faith is built on that love that says God loves me so much that They were willing to wrap Themselves in flesh and
+                        die for me!
+                    </p>
+                    <p>
+                        Can you be transgender and be a christian? Absolutely!
+                    </p>
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">Transgender and … Christian? <span class="lowlight">| August 11, 2021</span></h3>
+                </div>
+                by Danielle Grace (she / her)<br>
+                Pastor/Author, <a href="https://danitransformation.home.blog" class="highlight">The Transformation of Dani</a><br>
+                Danila371@yahoo.com
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- an article separator of some kind -->
+    <hr>
+
+
+    <!-- article #2 LOH 8/16/21 @ 0949 -->
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="ellaRoseDemars">
+                <div class="author">
+                    Ella<br>
+                    Rose<br>
+                    Demars
+                </div>
+                <div class="authorMeta">
+                    musician<br>
+                    worship leader <br>
+                    mom
+                </div>
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote">God does not squint to look around you.</p>
+                <p class="medPimpin">
+                    You are <span class="lowlight">fullly known</span> and <span class="highlight">fully loved</span> for the nature placed
+                    within you from the womb.<br><br>
+                    not in spite of it.<br><br>
+                </p>
+
+                <div class="fold">
+                    <p class="miniQuote">
+                        miniQuote goes here!
+                    </p>
+                    <p>
+                        paragraph goes here
+                    </p>
+
+                    <p class="lowlight"> the lowlight quote! </p>
+                    <p class="highlight"> the highlight quote! </p>
+
+
+                    <p class="bigQuote">it's a big ol quote!<br><br>
+                        <span class="highlight">highlight</span><br><br>tagline</p>
+                    </p>
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">Pray Away The Shame! My Thoughts on the Pray Away Documentary.<span class="lowlight">| August 11, 2021</span></h3>
+                </div>
+                by Ella Rose Demarse (She/Her)<br>
+                <i>worship leader, musician, mom</i><br>
+                ellaRose@godlovestrans.org
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- an article separator of some kind -->
+    <hr>
+
+
+
+
+    <!-- article #3 -->
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="ahicox">
+                <div class="author">
+                    &nbsp;<br>
+                    Amy <br>Hicox
+                </div>
+                <div class="authorMeta">
+                    Programmer/Admin, <br>
+                    this website right here
+                </div>
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote">God does not squint to look around you.</p>
+                <p class="medPimpin">
+                    You are <span class="lowlight">fullly known</span> and <span class="highlight">fully loved</span> for the nature placed
+                    within you from the womb.<br><br>
+                    not in spite of it.<br><br>
+                </p>
+
+                <div class="fold">
+                    <p class="miniQuote">
+                        miniQuote goes here!
+                    </p>
+                    <p>
+                        paragraph goes here
+                    </p>
+
+                    <p class="lowlight"> the lowlight quote! </p>
+                    <p class="highlight"> the highlight quote! </p>
+
+
+                    <p class="bigQuote">it's a big ol quote!<br><br>
+                        <span class="highlight">highlight</span><br><br>tagline</p>
+                    </p>
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">Title <span class="lowlight">| Septembner 1, 2021</span></h3>
+                </div>
+                by Amy Hicox (She/Her)<br>
+                <i>software developer</i><br>
+                adminAmy@godlovestrans.org
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- eeh ... uncomment if anyone gives af. they won't
+    <div class="gdprStuff">
+        this site does not use cookies nor does it store data on your computer other than visible content. However, we do use <a class="lowlight" href="https://analytics.google.com/analytics/web/">Google Analytics</a>
+        to get an idea of who is coming to our site, where they came from, and what communities we can best serve. In the interest of full
+        transparency, this notice fulfils <a class="lowlight" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GPDR</a> requirements. If you object to our use of Google Analytics, we completely understand, and the site
+        is still available to you. Simply disable javascript and reload the page, or install a browser tracking blocker such as
+        <a class="lowlight" href="https://github.com/dhowe/AdNauseam/wiki/FAQ">AdNauseam</a><br><br>
+        <div class="sig">
+            thank you for your understanding,<br>
+            -Admin Amy
+        </div>
+    </div>
+-->
+</div>
+
+
+</body>
+</html>

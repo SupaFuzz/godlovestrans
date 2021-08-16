@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPHME06JXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KPHME06JXX');
+    </script>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- start it up -->
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(evt){
+
+            /*
+                by default, buttons are hidden and all sections are expanded
+                IF the client has javascript enabled, this will get executed
+                collapsing evertything, setting up and showing buttons.
+
+                this should be the approach of the entire project.
+                accessibility is the entire point.
+            */
+            // setup all of the articleContainers with collapsable sections
+            document.body.querySelectorAll('.articleContainer').forEach(function(articleContainer){
+                // if the article has a fold
+                let fold = articleContainer.querySelector('div.fold');
+                if (fold instanceof Element){
+
+                    // if the article has an articleToggler button, collapse the section and setup the button
+                    let btn = articleContainer.querySelector('button.articleToggler');
+                    if (btn instanceof Element){
+                        // snag the expanded dimensions before we collapse
+                        let expHeight = articleContainer.getBoundingClientRect().height;
+
+                        // default collapse the section
+                        articleContainer.dataset.open = "false";
+
+                        // hook up the button
+                        btn.style.visibility = 'visible';
+                        btn.addEventListener('click', function(e){
+                            // shenanigans for jazzhands
+                            fold.style.maxHeight = (articleContainer.dataset.open == "true")?'0px':`${expHeight}px`;
+
+                            // toggle it (no jazzhands)
+                            articleContainer.dataset.open = (articleContainer.dataset.open == "true")?"false":"true";
+                        });
+                    }
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+
+<div class="titleCard">
+    <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span></h1>
+    <h2 class="sbh">God Loves You Because You Are Transgender</h2>
+    <div class="mnuBar">
+        <div class="btnContainer">
+            <!-- <a href="./archive">archive</a> -->
+            <a href="./index.html">&lt; current issue</a>
+        </div>
+        <h3 class="iss">Feb 2021</h3>
+    </div>
+</div>
+
+<div class="bdyCtr">
+
+
+<div class="hdrTitle">
+    <h1 class="title">Resources</h1>
+    <span class="lowlight">take these with you on your journey</span>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="churchClarity">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.churchclarity.org">churchclarity.org</a>
+            </p>
+            <p class="medPimpin">
+                Find an affirming faith community in your area.<br><br>
+                Connect with people in real life.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="everybodyChurch">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://everybodychurch.com/">Everybody Church</a>
+            </p>
+            <p class="medPimpin">
+                An affirming faith community.<br><br>
+                Connect with people on social media.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="mamaBears">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.realmamabears.org/">Mama Bears</a>
+            </p>
+            <p class="medPimpin">
+                A community of parents of LGBTQI+ kids,
+                and parents who are themselves LGBTQI+
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="queerTheology">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.queertheology.com/transgender/">Queer Theology</a>
+            </p>
+            <p class="medPimpin">
+                Discover the depths of your faith, and how it resonates
+                with your God-given transgender nature.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="pastorJune">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.youtube.com/c/PastorJune/featured">Pastor June Joplin</a>
+            </p>
+            <p class="medPimpin">
+                Pastor June is a transgender woman and Baptist pastor from Canada.
+            </p>
+            <i>On her we doest stan. Oh yes we do.</i>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="pastorPaula">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://paulastonewilliams.com/">Pastor Paula Stone Williams</a>
+            </p>
+            <p class="medPimpin">
+                Paula is a transgender woman, and a pastor from Colorado.
+                You might've watched her TED talk. It's good!
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="austenHartke">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.amazon.com/dp/B07C9FK1MZ?ref_=cm_sw_r_kb_dp_gepbGb566AVN1&tag=kpembed-20&linkCode=kpe#reader_B07C9FK1MZ"><i>Transforming</i>, by Austen Hartke</a>
+            </p>
+            <p class="medPimpin">
+                This very kind book will hold your hand, as you explore
+                the many ways of being a transgender Christian.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="suzanneDeWittHall">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.amazon.com/dp/B07F5ZGNV8?ref_=cm_sw_r_kb_dp_uEcdGbT8BWTH1&tag=kpembed-20&linkCode=kpe"><i>Transfigured</i>, by Suzanne DeWitt Hall</a>
+            </p>
+            <p class="medPimpin">
+                a 40-day exploration of scripture through the lens of a God who is the designer of gender in all it’s magnificent variety.
+            </p>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<p class="microQuote comfortaa">
+    <span class="lowlight">Big Picture Resources</span><br><br>
+    these resources were fundamental for me coming to terms with my transgender nature, and
+    more generally <i>how God actually works</i> not just for people like me, but
+    <span class="highlight">for everyone.</span>
+</p>
+
+<hr>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="alanWatts">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://archive.org/details/bookontabooagain0000watt"><i>The Book</i><br>by Alan W. Watts</a>
+            </p>
+            <p class="medPimpin">
+                You can buy this book if you want, but it's a free read on archive.org (link above).<br><br><br>
+            </p>
+            <p>For me, this book was
+                approachable, specifically because it <i>wasn't</i> weighted down by the history of the Christian faith,
+                and all of the cultural and political baggage that comes along with it. Instead this book is a breathtaking stroll through
+                the wonder of what it means to be a human, through the lens of Vedanta Hinduism (but not exclusively).
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="richardRohr">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.amazon.com/Universal-Christ-Forgotten-Reality-Everything/dp/1524762091/ref=sr_1_2?crid=1OC89X9Y8XI5W&dchild=1&keywords=universal+christ+by+fr.+richard+rohr&qid=1612208198&sprefix=universal+christ+%2Caps%2C875&sr=8-2"><i>The Universal Christ</i><br>by Richard Rohr</a>
+            </p>
+            <p class="medPimpin">
+                According to the forward, the name of this book was almost "God Loves Things by Becoming Them".<br><br><br>
+            </p>
+            <p>For me, this was like the second half of Alan Watts' <i>The Book ...</i> in that it dove into far greater
+                detail, and in my native tongue of Christianity! This book really really helped me and I cannot reccomend it
+                enough. They made a video trailer for the book, you should watch it. Then go get the book and read it.
+            </p>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/TcoN2K5aIkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+</div>
+
+<div class="articleContainer">
+    <div class="article">
+        <div class="callout" data-author="robBell">&nbsp;</div>
+        <div class="articleBody">
+            <p class="miniQuote">
+                <a class="highlight" href="https://www.amazon.com/Love-Wins-About-Heaven-Person/dp/0062049658/ref=sr_1_1?crid=1NCY1TGEV9QBJ&dchild=1&keywords=love+wins+by+rob+bell&qid=1612208492&sprefix=lovew+wins+%2Caps%2C192&sr=8-1"><i>Love Wins</i><br>by Rob Bell</a>
+            </p>
+            <p class="medPimpin">
+                What you've been told, is not the only way to understand the Christian story.<br><br><br>
+            </p>
+            <p>
+                This book digs deeply into the various theories of "Heaven" and "Hell" found in the Christian faith, and frankly discusses the practical implications of them
+                and re-examines the scriptural foundations for these fully-human-made ideas.
+                It's very good.<br><br>
+                Also, and it's not related to the book, but I suspect you'll love this video just as much as I do. Settle in, it's a ride :-)
+            </p>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/sA7LmEn3xyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+</div>
+
+<!-- eeh ... uncomment if anyone gives af. they won't
+<div class="gdprStuff">
+    this site does not use cookies nor does it store data on your computer other than visible content. However, we do use <a class="lowlight" href="https://analytics.google.com/analytics/web/">Google Analytics</a>
+    to get an idea of who is coming to our site, where they came from, and what communities we can best serve. In the interest of full
+    transparency, this notice fulfils <a class="lowlight" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GPDR</a> requirements. If you object to our use of Google Analytics, we completely understand, and the site
+    is still available to you. Simply disable javascript and reload the page, or install a browser tracking blocker such as
+    <a class="lowlight" href="https://github.com/dhowe/AdNauseam/wiki/FAQ">AdNauseam</a><br><br>
+    <div class="sig">
+        thank you for your understanding,<br>
+        -Admin Amy
+    </div>
+</div>
+-->
+</div>
+</body>
+</html>

@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPHME06JXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KPHME06JXX');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta property="og:site_name" content="#godlovestrans" />
+    <meta property="og:title" content="God Loves You Because You're Transgender" />
+    <meta property="og:description" content="For Trans People, By Trans People" />
+    <meta property="og:image" content="https://godlovestrans.org/issues/feb21/gfx/siteSocialShareE.png" />
+    <meta property="og:url" content="https://godlovestrans.org" />
+    <meta property="og:type" content="blog" />
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- start it up -->
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(evt){
+
+            /*
+                by default, buttons are hidden and all sections are expanded
+                IF the client has javascript enabled, this will get executed
+                collapsing evertything, setting up and showing buttons.
+
+                this should be the approach of the entire project.
+                accessibility above all else.
+            */
+            // setup all of the articleContainers with collapsable sections
+            document.body.querySelectorAll('.articleContainer').forEach(function(articleContainer){
+                // if the article has a fold
+                let fold = articleContainer.querySelector('div.fold');
+                if (fold instanceof Element){
+
+                    // if the article has an articleToggler button, collapse the section and setup the button
+                    let btn = articleContainer.querySelector('button.articleToggler');
+                    if (btn instanceof Element){
+                        // snag the expanded dimensions before we collapse
+                        let expHeight = articleContainer.getBoundingClientRect().height;
+
+                        // default collapse the section
+                        articleContainer.dataset.open = "false";
+
+                        // hook up the button
+                        btn.style.visibility = 'visible';
+                        btn.addEventListener('click', function(e){
+                            // shenanigans for jazzhands
+                            fold.style.maxHeight = (articleContainer.dataset.open == "true")?'0px':`${expHeight}px`;
+
+                            // toggle it (no jazzhands)
+                            articleContainer.dataset.open = (articleContainer.dataset.open == "true")?"false":"true";
+                        });
+                    }
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="titleCard">
+        <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span></h1>
+        <h2 class="sbh">God Loves You Because You Are Transgender</h2>
+        <div class="mnuBar">
+            <div class="btnContainer">
+                <!-- <a href="./archive">archive</a> -->
+                <a href="./resources.html">resources</a>
+            </div>
+            <h3 class="iss">Feb 2021</h3>
+        </div>
+    </div>
+
+<div class="bdyCtr">
+
+    <!-- sigh. something needed to be said. -->
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="ahicox">
+                <div class="author">
+                    &nbsp;<br>
+                    Amy <br>Hicox
+                </div>
+                <div class="authorMeta">
+                    Programmer/Admin, <br>
+                    this website right here
+                </div>
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote">God does not squint to look around you.</p>
+                <p class="medPimpin">
+                    You are <span class="lowlight">fullly known</span> and <span class="highlight">fully loved</span> for the nature placed
+                    within you from the womb.<br><br>
+                    not in spite of it.<br><br>
+                </p>
+
+                <div class="fold">
+                    <p class="miniQuote">
+                        You might never hear this from a pulpit, or from your parents, or anyone.
+                        I was lucky with friends who pointed the way. <span class="highlight">I made this site for you</span>,
+                        because you should not need to be lucky to know this.
+                    </p>
+                    <p>
+                        In truth, I'm hesitant to write anything at all here. But I felt, for at least this innaugural 'issue',
+                        some explianation was in order.
+                    </p>
+                    <p>
+                        I'm hesitant to write because I know approximately nothing about God, Religion, Spirituality, Councelling, or
+                        anything that matters. I do know how to write code, and make websites. So there's that. Also I'm transgender,
+                        and so there's that too.
+                    </p>
+                    <p>
+                        Like most every transgender person I know, <i>I've been through some shit</i>. If you're trans, I suspect you have been too!
+                        I was a rather staunch athiest prior to my life blowing completely apart, as one's life does when one is
+                        inescapably careening toward gender transition whilst living amogst the growing ruins of a life not compatible with said transition.
+                    </p>
+                    <p>
+                        I found that transition is an <i>inherently spiritual</i> experience. It is impossible to avoid deep questions about who one is,
+                        and about how one fancies that one might fit into the grand scheme of life on this Earth. The experience of transition drove me back
+                        to the faith tradition I had been raised in, but now I found myself approaching as the ultimate outsider: coming from a place of skeptical
+                        unbelief, and at the same time rejected as an outcast by the loudest, most fundamental voices of that tradition.
+                    </p>
+                    <p class="lowlight"> How on Earth did I ever come to the point where I felt moved to build something like this?</p>
+
+                    <p>
+                        The short answer, is that randomly, I happened to have the right friends, and those friends were members of an
+                        affirming church the next town over. Without hyperbole, what I found at that church saved my life.
+                    </p>
+
+                    <p> In hindsight, I can see it for what it was, the hand of God, incarnate in other people.</p>
+
+                    <p>Since I came out of the closet, and unabashedly joined the transgender commuinity, I have met transgender engineers, and veternarians,
+                        tons of IT people like myself ... I've met doctors and laywers and military folks ... but the profession I've ran into more than any other:
+                        <span class="highlight">pastors.</span>
+                    </p>
+                    <p>
+                        So many pastors, and ex-pastors. Every one of them, on one level or another, struggling with the same crap I was. I found that incredibly moving,
+                        because I'll tell ya what, when I first typed 'transgender' into Google, what I <i>didn't find</i> were a bunch of pastors telling me
+                        "hey, Jesus loves you for this, relax its gonna be ok".
+                    </p>
+                    <p>
+                        Far from it. If you're reading this you already know what I found. Exploitation porn, and heaps of religious condemnation written by people who, though
+                        often kind at heart, were simply coming from a place of ignorance. Others were less kind. Either way it amounted to the same thing from my perspective.
+                        I could be forgiven
+                        for coming away with the impression that I was broken, and that there was no rest to be found for me here. If I hadn't been lucky, I'd probably have ended
+                        it all in 2018. If I had, I'd have merely been a statistic. So many of us die that way, it's practically a trope.
+                    </p>
+                    <p>I'm convinced that the reason so many of my transgender siblings were called to ministry (even before they had a grip on the fact that they
+                        were transgender), is precicely because this community needs them so badly. We are a marginalized community, largely living in existential pain
+                        and often suffering under the bullshit notion that God isn't ok with us. That God didn't make us this way intentionally.
+                    </p>
+                    <p class="miniQuote">
+                        This site exists to be a place that loudly states that <span class="highlight">transgender people are beloved of God</span>.
+                        If you are interested in writing for the site, please see our <a class="highlight" href="https://github.com/SupaFuzz/godlovestrans">github repo</a>
+                    </p>
+                    <p><i>psst ... hey terrified trans person googling your condition, hoping it doesn't mean you're going to hell ...</i><br><br>
+                        see my picture up there? That's me holding my grandson literally two nights ago. Two years ago, my family and my relationship
+                        to my kids were a smoking crater. I couldn't even begin to imagine the possibilities and healing in store.<br><br>
+                        I am not saying the outcome is determinate.<br><br>
+                        I'm not saying "hey we got answers over here and you too will be reunited
+                        with your formerly estranged kids and the world will be unicorns and rainbows with Jesus"<br><br>
+                        Here's what I'm saying, and I'm hoping to give voice to others who will say it far better:
+
+                        <p class="bigQuote">there are others like you out here, you are loved, you are valid, and
+                        you are a precious child of God.<br><br>
+                        <span class="highlight">As. Is.</span><br><br>don't ever let anyone tell you different.</p>
+
+                        <p>Knowing just that and not a lot more, has made every difference for me.<br><br>God made you this way on purpose. It's gonna be ok.<br><br>
+                        <i>now I shall return to writing code, and let the pastors speak for themselves</i>
+                    </p>
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">I have no idea what I'm doing <span class="lowlight">| Feb 1, 2021</span></h3>
+                </div>
+                by Amy Hicox (She/Her)<br>
+                <i>software developer</i><br>
+                adminAmy@godlovestrans.org
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- an article separator of some kind -->
+    <hr>
+
+
+
+
+    <!-- first real article! thanks Michael :-) -->
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="mad">
+                <div class="author">
+                    Michael <br>Angelo<br>D'Arrigo
+                </div>
+                <div class="authorMeta">
+                    Senior Pastor, <br>
+                    Agape Fellowship of Greater Atlanta
+                </div>
+
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote">
+                    Of all of the things that Christians seem to agree on,
+                    one of the biggest is a notion of <span class="highlight">rebirth</span> in Christ Jesus.
+                </p>
+
+                <p class="medPimpin">Depending on whether one is Catholic or Protestant that notion of
+                rebirth may vary to some degree or another, however it is in fact a reality
+                of the faith for both.</p>
+
+                <div class="fold">
+                    <p class="break">Most believers use baptism as their example of the re-birthing process. <br><br>
+                    At best, the act of baptism is an outward sign of an inward reality. To paraphrase Paul (Romans 6, etc),
+                    when we go down into the water of baptism <span class="highlight">our old selves die</span>, our sinful nature is
+                    washed clean, and we
+                    become heirs to the kingdom of God. When we rise up, we are spiritually new creations. <span class="highlight">Transformed from
+                    our old selves</span>, to our new spiritual selves, now walking on a path to eternal salvation.</p>
+
+                    <p>It's important to remember that the Old Testament (Jeremiah 1:1) tells us that God knew who we were before we were in
+                    our mother's wombs. That we have been fearfully and wonderfully made (Psalm 139:14), and that each human
+                    creation is made in the likeness the image of God the Creator.
+                    According to the prophet Isaiah (Isaiah 56:4-5), Eunuchs hold a special place within God's creation (it is immaterial
+                    that they were not allowed in the temple, neither were woman in that time period). :</p>
+
+                    <p class="scriptureQuote">
+                        <sup>4</sup> For this is what the Lord says:<br>
+                    <span class="ind">“To the eunuchs who keep my Sabbaths,
+                        who choose what pleases me
+                        and hold fast to my covenant,
+                    <sup>5</sup> to them I will give within my temple and its walls,
+                        a memorial and a name
+                        better than sons and daughters;
+                    I will give them an everlasting name
+                        that will endure forever.
+                        a place set apart for holy purposes.”</span>
+                    </p>
+
+                    <p>Then, in the New Testiment, Jesus himself says:</p>
+                    <p class="scriptureQuote">
+                        "there are eunuchs who were born that way,
+                        and there are eunuchs who have been made eunuchs by others,
+                        and there are those who choose to live like eunuchs for the sake of the kingdom of heaven.
+                        The one who can accept this should accept it."
+                    </p>
+
+                    <p class="miniQuote">
+                        What if I were to say that the word in Scripture that, in English, we translate as 'eunuch' was in fact,
+                        understood in the time period, as the modern English words <span class="highlight">transgender or intersex?</span>
+                    </p>
+
+                    <p>Friends think about it, transgender people are literally set apart and honored by God to serve in holy places.
+                        But if you want a more tangible way of looking at this, one that truly exemplifies Christian faith, how about this:<br><br>
+
+                        When one is in lockstep, in a solid relationship with Christ Jesus and the Creator God the Father, prayerful, etc.
+                        One comes to the conclusion that the reason for years of misery, suicidal thoughts, self-harm, bullying, and overall
+                        depression is <strong class="highlight">because your faith community tells you that being LGBTQI+ is sinful.</strong>
+
+                        When you routinely, for years ask God to cure you of your sins, to make you whole (Sozo), and the one thing that God has
+                        not healed is your LGBTQI+ nature ...  is it, perhaps ...  because <span class="highlight">those items are not broken</span>
+                        and therefore do not require healing?
+                    </p>
+
+                    <p>Let's go back to the model for rebirth.</p>
+
+                    <p>You repent, you seek forgiveness, and then you approach the throne to walk in Salvation.</p><p class="miniQuote"><span class="lowlight">Rebirth is necessary</span>,
+                        a transgender person in Christ, begins hormonal therapy, much like a cocoon and a butterfly ... the Transformation begins.</p>
+                        <p>After a passage of time (different for everyone) on HRT, a person then may decide to have top or bottom surgeries to
+                            remove the dysphoria that might be caused by body parts, all the while being in the state of prayer of repentance and
+                            of walking in Salvation.<p>
+                        <p>So over time this person has truly become a New Creation in Christ Jesus.</p>
+
+                        <p>What if being trans is a calling from the
+                            Creator to live out a spiritual and physical transformation of the body and <span class="lowlight">the person that God
+                                meant you to be before you were in your mama's womb.</span></p><p>To me, I can think of no better illustration of that
+                                total change and rebirth than that of a transgender believer.</p> <p>Perhaps if we all chose to see it this way, we could all agree that God's creation is
+                            simply more diverse then we thought. After all, we so commonly try and humanize God. God is bigger than all that, so
+                            too, obviously is Creation.</p>
+                    <p>May the blessings of the Lord, be with you always. World without end...</p>
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">TransFormed in Christ <span class="lowlight">| Feb 1, 2021</span></h3>
+                </div>
+                by Rev. Canon Michael Angelo D'Arrigo (He/Him)<br>
+                Senior Pastor, <a href="https://www.agapefellowshipatl.org/" class="highlight">Apape Fellowship of Greater Atlanta</a><br>
+                Canon to the Presiding Bishop of the Convergent Christian Communion<br>
+                darrigoma@gmail.com
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- an article separator of some kind -->
+    <hr>
+
+
+    <div class="articleContainer">
+        <div class="article">
+            <div class="callout" data-author="danielleGrace">
+                <!--
+                <div class="author">
+                    Danielle <br>Grace
+                </div>
+                <div class="authorMeta">
+                    (occupation), <br>
+                    (thang)
+                </div>
+                -->
+            </div>
+            <div class="articleBody">
+                <p class="miniQuote highlight">Pastor Danielle Grace</p>
+                <p class="medPimpin">
+                    My guilt was because my heart, mind and soul didn’t match up with my body.
+                    I was assigned male at birth but I knew that wasn’t right.  It wasn’t until I
+                    started seminary in 1995 that I learned the word for it: <span class="highlight">transgender.</span>
+                </p>
+                <div class="fold">
+
+                    <p class="miniQuote">I have spent my entire life surrounded by various forms of religion, mostly
+                    from a Christian point of view.</p>
+
+                    <p>A little background related to that. I grew
+                    up in a south Louisiana Cajun family, both sides coming as part of the Acadian
+                    Dispersion from eastern Canada, which also meant growing up deeply rooted in
+                    Catholicism.</p>
+
+                    <p>I went through all of the hoops early on and after my parents were divorced in
+                    the late 70’s we became pretty nominal, but those roots ran deep.</p>
+
+                    <p>Between the ages of 12 and 18 I was in and out of a couple of Baptist churches,
+                    one Independent Fundamentalist, the other Southern Baptist.  My best friend
+                    from high school got me going to church with him for a while at his Southern
+                    Baptist church and that was probably ages 15-18, and that was the most
+                    consistency for me.</p>
+
+                    <p>At the age of 18 I found my way into south Mississippi and in another Southern
+                    Baptist church where I made what is considered my own “personal profession of
+                    faith.”  In other words, I claimed my on faith in what I believed to be true
+                    about Jesus; his death and his resurrection.  About a year later I found myself
+                    considering ministry work.  As a result I started serious training for this
+                    after graduating from college and entering the most conservative of Southern
+                    Baptist seminaries before beginning my own full time ministry in 2004 as a
+                    pastor.</p>
+
+                    <p class="microQuote">I say all of this, because the one thing that has been a constant in all of this
+                    has been guilt and shame.<br><br> I used to joke with my own children how I could
+                    “throw guilt like a shoe” because I had experienced so much of it growing up,
+                    preached so much of it as adult, and continued to carry that baggage well into
+                    my 40’s.</p>
+
+                    <p>My guilt was because my heart, mind and soul didn’t match up with my body.
+                    <span class="highlight">I was assigned male at birth but I knew that wasn’t right.</span>  It wasn’t until I
+                    started seminary in 1995 that I learned the word for it: transgender.  I am a
+                    transgender woman.  And the weight of guilt and shame that I carried until just
+                    a few years ago is what kept me locked away thinking I was broken and in need
+                    of being fixed.</p>
+
+                    <p>Yes I would experiment here and there.  Wearing the undergarments under my
+                    clothes.  Buying clearance shoes as if I was shopping for my wife.  Shaving my
+                    legs from time to time.  But all of that was short lived.  <span class="lowlight">I would soon find
+                    myself purging it all out of guilt and shame.</span>  And then the religion would kick
+                    in and I was asking God to forgive me of something I was too ashamed to even
+                    admit to him and <span class="highlight">praying to be “fixed.”</span></p>
+
+                    <p class="bigQuote">Guilt and shame are powerful tools.<br><br>They can break hearts and steal lives.</p>
+
+                    <p>Their weight is immeasurable, yet crushing to those who are victims.  For over
+                    40 years I let guilt and shame control my life.  For over 40 years the thumb of
+                    those 2 sons of a bitches controlled so much of my life!</p>
+
+                    <p>That was until grace became real to me.<p>
+
+                    <p>Grace in theological circles is defined
+                    as “unmerited favor.”  In other words, you are getting what you never deserved.
+                    A broader definition from Merriam-Webster is simply “approval, favor.”</p>
+
+                    <p class="miniQuote">Grace
+                    wasn’t something I needed to seek out from God, it was <span class="highlight">something I already had
+                    since They created me</span>.  Psalm 139:13-14 reads in the NLT:</p>
+
+                    <p class="scriptureQuote">“You made all the
+                    delicate, inner parts of my body and knit me together in my mother’s womb.
+                    Thank you for making me so wonderfully complex!  Your workmanship is
+                    marvelous—how well I know it.”</p>
+
+                    <p>In other words it took me over 40 years to realize I wasn’t broken, I wasn’t
+                    messed up, and I wasn’t a mistake!  Those things that guilt and shame said I
+                    should feel sorry for and “repent of” from years of religious teachings were not
+                    so.  Grace said I am accepted.  Grace said God knows me inside and out!  Grace
+                    said I am free to live for the first time in my life!</p>
+
+                    <p>When I finally gave guilt and shame the finger and told them to F off my life
+                    changed.  I found me.  I found Danielle Grace in there.  She has been there all
+                    along, but I wasn’t sure how to let her be true to herself.  Grace won in a way
+                    I never imagined it happening.</p>
+
+                    <p>And in grace I can agree with the Apostle Paul in Romans 8:1 (NLT)</p>
+
+                    <p class="scriptureQuote">“So now there is no condemnation for those who belong to Christ Jesus.” </p>
+
+                    <p class="miniQuote">There is no
+                    condemnation for me, and there is no condemnation for you.<br><br>
+                    <span class="highlight">Accept who you are because God already accepts you</span>, and be free to let grace reign as you become
+                    who you were created to be!</p>
+
+                </div>
+            </div>
+            <div class="articleMeta">
+                <div class="hdr">
+                    <button class="articleToggler"><span class="action">read</span></button>
+                    <h3 class="title">Grace Wins <span class="lowlight">| Feb 1, 2021</span></h3>
+                </div>
+                by Danielle Grace (she / her)<br>
+                Pastor/Author, <a href="https://danitransformation.home.blog" class="highlight">The Transformation of Dani</a><br>
+                Danila371@yahoo.com
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- eeh ... uncomment if anyone gives af. they won't
+    <div class="gdprStuff">
+        this site does not use cookies nor does it store data on your computer other than visible content. However, we do use <a class="lowlight" href="https://analytics.google.com/analytics/web/">Google Analytics</a>
+        to get an idea of who is coming to our site, where they came from, and what communities we can best serve. In the interest of full
+        transparency, this notice fulfils <a class="lowlight" href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GPDR</a> requirements. If you object to our use of Google Analytics, we completely understand, and the site
+        is still available to you. Simply disable javascript and reload the page, or install a browser tracking blocker such as
+        <a class="lowlight" href="https://github.com/dhowe/AdNauseam/wiki/FAQ">AdNauseam</a><br><br>
+        <div class="sig">
+            thank you for your understanding,<br>
+            -Admin Amy
+        </div>
+    </div>
+-->
+</div>
+
+
+</body>
+</html>
