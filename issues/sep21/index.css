@@ -282,6 +282,10 @@ p.bigQuote {
     border-left: .25em solid rgb(230, 0, 161);
     padding-left: 1em;
 }
+p.miniQuote a, p.bigQuote a {
+    font-family: Comfortaa;
+    color: rgb(230, 0, 161);
+}
 p.medPimpin {
     font-size: 1.25em;
     background: linear-gradient(rgba(0, 101, 179, 0), rgba(0, 101, 179, .4));
@@ -424,6 +428,6 @@ hr {
     border-radius: 1em;
     overflow:hidden;
     margin: .5em;
-    padding: .25em;
+    padding: .5em;
     background-color: white;
 }
