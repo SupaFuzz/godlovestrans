@@ -70,7 +70,35 @@
             */
             var headerIsCollapsed = false;
             var hdrStuff = document.querySelector('.titleCard .toggleOnScroll');
+            var lastScrollY = 0;
+            var up = false;
+            var dirCount = 0;
             document.addEventListener('scroll', function(evt){
+
+                if (lastScrollY > 0){
+                    let newDir = (window.scrollY < lastScrollY);
+                    if (newDir != up){ dirCount = 0;}
+                    up = newDir;
+                    dirCount ++;
+                }
+                lastScrollY = window.scrollY;
+
+                if (dirCount > 50){
+                    if (up && headerIsCollapsed){
+                        if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '400px'; }
+                        headerIsCollapsed = false;
+                    }else if ( (! up) && (! headerIsCollapsed)){
+                        if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = 0; }
+                        headerIsCollapsed = true;
+                    }
+                }
+
+                if ((window.scrollY <= 50) && (headerIsCollapsed)){
+                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '400px'; }
+                    headerIsCollapsed = false;
+                }
+
+                /*
                 if ((window.scrollY > 50) && (! headerIsCollapsed)){
                     if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = 0; }
                     headerIsCollapsed = true;
@@ -78,6 +106,9 @@
                     if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '400px'; }
                     headerIsCollapsed = false;
                 }
+                */
+
+
             });
             var hdr = document.querySelector('.titleCard');
             if (hdr instanceof Element){
