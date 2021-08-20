@@ -65,19 +65,50 @@
                 }
             });
 
+            /*
+                auto-collapsing header jazzhands
+            */
+            var headerIsCollapsed = false;
+            var hdrStuff = document.querySelector('.titleCard .toggleOnScroll');
+            document.addEventListener('scroll', function(evt){
+                if ((window.scrollY > 50) && (! headerIsCollapsed)){
+                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = 0; }
+                    headerIsCollapsed = true;
+                }else if ((window.scrollY <= 50) && (headerIsCollapsed)){
+                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '400px'; }
+                    headerIsCollapsed = false;
+                }
+            });
+            var hdr = document.querySelector('.titleCard');
+            if (hdr instanceof Element){
+                hdr.addEventListener('click', function(e){
+                    if (hdrStuff instanceof Element){
+                        if (headerIsCollapsed){
+                            headerIsCollapsed = false;
+                            hdrStuff.style.maxHeight = '400px';
+                        }else{
+                            headerIsCollapsed = true;
+                            hdrStuff.style.maxHeight = 0;
+                        }
+                    }
+                })
+            }
+
         });
     </script>
 </head>
 <body>
     <div class="titleCard">
         <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span></h1>
-        <h2 class="sbh">God Loves You Because You Are Transgender</h2>
-        <div class="mnuBar">
-            <div class="btnContainer">
-                <!-- <a href="./archive">archive</a> -->
-                <a href="./resources.html">resources</a>
+        <div class="toggleOnScroll">
+            <h2 class="sbh">God Loves You Because You Are Transgender</h2>
+            <div class="mnuBar">
+                <div class="btnContainer">
+                    <!-- <a href="./archive">archive</a> -->
+                    <a href="./resources.html">resources</a>
+                </div>
+                <h3 class="iss">Fall 2021</h3>
             </div>
-            <h3 class="iss">Fall 2021</h3>
         </div>
     </div>
 
@@ -221,7 +252,7 @@
     <hr>
 
 
-    <!-- article #2 LOH 8/16/21 @ 0949 -->
+    <!-- article #2 -->
     <div class="articleContainer">
         <div class="article">
             <div class="callout" data-author="ellaRoseDemars">
