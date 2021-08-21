@@ -293,6 +293,18 @@ body {
 p.miniQuote {
     font-size: 2em;
 }
+p.poetry {
+    font-family: Roboto;
+    white-space: pre;
+    font-size: .85em;
+    border-left: .25em solid rgb(217,217,217);
+    padding-left: 2em;
+    margin-left: 2em;
+    background: url(./gfx/poetic_bknd.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: 15em 12em;
+}
 p.microQuote {
     font-size: 1.6em;
     max-width: 66%;
