@@ -65,72 +65,63 @@
                 }
             });
 
+
             /*
                 auto-collapsing header jazzhands
             */
-            var headerIsCollapsed = false;
             var hdrStuff = document.querySelector('.titleCard .toggleOnScroll');
             var lastScrollY = 0;
             var up = false;
-            var dirCount = 0;
-            document.addEventListener('scroll', function(evt){
+            var newPos = 0;
+            var scrollThreshold = 30;
+            if (hdrStuff instanceof Element){
+                var hdr = document.querySelector('.titleCard');
+                hdrStuff.dataset.restoreheight = hdrStuff.clientHeight;
+                hdrStuff.dataset.collapse = 'false';
+                hdrStuff.style.maxHeight = `${hdrStuff.clientHeight}px`;
 
-                if (lastScrollY > 0){
-                    let newDir = (window.scrollY < lastScrollY);
-                    if (newDir != up){ dirCount = 0;}
-                    up = newDir;
-                    dirCount ++;
-                }
-                lastScrollY = window.scrollY;
-
-                if (dirCount > 50){
-                    if (up && headerIsCollapsed){
-                        if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '140px'; }
-                        headerIsCollapsed = false;
-                    }else if ( (! up) && (! headerIsCollapsed)){
-                        if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = 0; }
-                        headerIsCollapsed = true;
-                    }
-                }
-
-                if ((window.scrollY <= 50) && (headerIsCollapsed)){
-                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '140px'; }
-                    headerIsCollapsed = false;
-                }
-
-                /*
-                if ((window.scrollY > 50) && (! headerIsCollapsed)){
-                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = 0; }
-                    headerIsCollapsed = true;
-                }else if ((window.scrollY <= 50) && (headerIsCollapsed)){
-                    if (hdrStuff instanceof Element){ hdrStuff.style.maxHeight = '400px'; }
-                    headerIsCollapsed = false;
-                }
-                */
-
-
-            });
-            var hdr = document.querySelector('.titleCard');
-            if (hdr instanceof Element){
-                hdr.addEventListener('click', function(e){
-                    if (hdrStuff instanceof Element){
-                        if (headerIsCollapsed){
-                            headerIsCollapsed = false;
-                            hdrStuff.style.maxHeight = '400px';
-                        }else{
-                            headerIsCollapsed = true;
-                            hdrStuff.style.maxHeight = 0;
+                // toggle it function
+                function toggleHdrStuff(collapse){
+                    if (collapse === true){
+                        if (hdr.dataset.collapse == 'false'){
+                            hdrStuff.style.maxHeight = `0px`;
+                            hdr.dataset.collapse = 'true';
+                        }
+                    }else{
+                        if (hdr.dataset.collapse == 'true'){
+                            hdrStuff.style.maxHeight = `${hdrStuff.dataset.restoreheight}px`;
+                            hdr.dataset.collapse = 'false';
                         }
                     }
-                })
+                }
+
+                // add a click handler
+                if (hdr instanceof Element){
+                    hdr.addEventListener('click', function(){
+                        toggleHdrStuff((! (hdr.dataset.collapse == 'true') ));
+                    });
+                }
+                /* add the scroll handler */
+                document.addEventListener('scroll', function(evt){
+                    if (lastScrollY > 0){
+                        let newDir = (window.scrollY < lastScrollY);
+                        if (newDir != up){ newPos = window.scrollY; }
+                        up = newDir;
+                    }
+                    lastScrollY = window.scrollY;
+                    if (Math.abs(lastScrollY - newPos) > scrollThreshold){
+                        toggleHdrStuff(! up);
+                    }
+                });
             }
+
 
         });
     </script>
 </head>
 <body>
-    <div class="titleCard">
-        <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span></h1>
+    <div class="titleCard" data-collapse="false">
+        <h1 class="glt"><span style="color: rgb(230, 0, 161);">#GOD</span><span style="color: rgb(217, 217, 217);">LOVES</span><span style="color: rgb(0, 101, 179);">TRANS</span><span class="handle">&darr;</span></h1>
         <div class="toggleOnScroll">
             <h2 class="sbh">God Loves You Because You Are Transgender</h2>
             <div class="mnuBar">

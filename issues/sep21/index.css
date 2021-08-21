@@ -29,12 +29,34 @@ body {
 }
 .toggleOnScroll {
     overflow: hidden;
-    transition: max-height 1s;
+    transition: max-height 1s ease-in-out .45s;
 }
 .glt {
     font-size: 3em;
     margin: 0;
     padding: 0;
+    cursor: default;
+    user-select: none;
+}
+.titleCard[data-collapse="false"] .glt .handle{
+    opacity: 0;
+}
+.glt .handle {
+    font-size: .66em;
+    font-weight: bolder;
+    font-family: 'Comfortaa';
+    color: rgb(217,217,217);
+    margin: .5em;
+    padding: 0 .5em 0 .5em;
+    border-radius: .35em;
+    border: 2px solid rgb(217,217,217);
+    background-color: rgba(217,217,217, .2);
+    opacity: 1;
+    transition: opacity 1s ease-in-out .45s;
+    position: absolute;
+    right: 0;
+    cursor: default;
+    opacity: .35;
 }
 .sbh {
     margin: 0;
