@@ -1,6 +1,168 @@
 I still don't know what I'm doing
 8/19/21
 
+When I launched this project back in February, we were just shy of a year into COVID-19
+lockdown. One month shy, in fact. We have lost so much, and so many since then.
+
+words fail.
+
+It is not easy being anyone in the whole world right now.
+
+Against a backdrop of the world careening toward just about every imaginable calamity, centering
+ourselves, that is, trans people of faith, seems somehow .... untoward, perhaps. But then we really
+don't have the choice do we? It's not like we can wake up in the morning and just wish our trans away.
+
+this is who we are, our experience of the world around us. Even of a world falling to pieces, it is our
+own experience and though every journey is unique, there is a lot we share.
+
+what we go through is worth talking about, especially as people of faith. The world will tell you, especially
+if you come from a conservative evangelical background, that you are broken, that you are standing at a distance
+from God, by acquiescing to the nature she gave you, and that you have to choose between being who you are,
+and being loved by God. That you have to choose between mental health and spiritual health.
+
+If this batch of articles has a theme, it's this:
+
+you don't have to choose.
+
+    Marginalized identities, to survive, have to get in touch with their divinity
+    to survive, they have to say
+
+    "I'm worth staying around, I'm worth keeping around, I'm worth living"
+
+    and to be able to say that to yourself as a marginalized identity,
+    when the world is telling you that you're not worth anything,
+    you have to come to finding worth within
+    because the world will tell you the worth is not inside
+    so you have to find it
+    and you won't find it out there
+    Jo Luehman
+    https://youtu.be/UquyGgZI20w?t=1531
+    8/15/21
+
+It is a mater of survival, or at least I can say in my own experience it has decidedly been so.
+Jo's talk was brilliant, I cannot recommend enough, giving yourself 20 minutes or to watch it. In the
+talk, she draws a parallel between the leaves of Adam and Eve hiding themselves from God in the book
+of Genesis to those "leaves" we cover our insecurities with in every day life ... and she advises
+to burn them.
+
+Burn the leaves.
+
+what a beautiful metaphor ... and one to which I'd wager nearly every trans person can relate all too well.
+
+Friends, as we walk this path of transition, know that God (however you perceive her) is for you, is with you,
+and is in you. I hope you find this batch of articles a comfort on your journey.
+
+
+== DRAFT STUFF below this line ===
+
+== a good(ish) quote I guess.
+
+
+
+== meh ... this is a fascade. no thank you.
+It's Fall of 2021! We're still up to our eyeballs in pandemic and there's no end in sight!
+Good times, good times.
+
+If you've just found us, the long and short of it is this:
+
+    * you have found some transgender people of faith
+      when you get caught between the faith and your identity
+      I know it's crazy
+      but it's true.
+
+    * but what does "of faith" mean?
+      Christian. I mean, probably. For varying definitions of the term.
+      Other faith perspectives would be cool. I'd be into that.
+
+    * girl, I have something to say
+      If you'd like to write about your experience of faith at the intersection of your
+      transgender identity, please get in touch.
+
+        * adminAmy@godlovestrans.org
+        * https://github.com/SupaFuzz/godlovestrans
+
+
+== one more try ==
+
+When I launched this project back in February, we were just shy of a year into COVID-19
+lockdown. One month shy, in fact. We have lost so much, and so many since then.
+
+words fail.
+
+For the last month or two, I've been struggling with a thought that goes something like
+this "why on earth are you running that site? just take it down, who are you to be showing
+your ass on the internet about things you don't fully understand?"
+
+You see, when I say "I have no idea what I'm doing", I really mean that.
+I actually do not.
+
+I thoroughly do not understand religion, or theology, or philosophy. I'm no expert on
+ancient Greek or Hebrew. I know next to nothing of the history of Christianity, and I didn't
+choose it ... it's just the tradition I was raised in, therefore it is my native language for
+talking about faith.
+
+There is a whole boat load of it I don't even believe.
+
+I'm just some random computer programmer who got dealt the cards of being transgender in
+life. Who at long last grew out of hating herself, and who found healing and community through
+vaugely Christian flavored faith ... a faith that began around this nucleation point:
+
+"God made you this way on purpose, stop fighting"
+
+Sharing that insight with people seemed like such a positive, uplifting and hopeful thing to
+do, but somehow ... maybe just the backdrop of unrelenting tragedy in the world, coupled with
+pandemic social isolation heading straight into it's second year with no end in sight ... I
+don't know. Something about all of that made me think twice.
+
+    "Maybe this is just one of the wild edges of my transition journey. Maybe I don't really believe
+    any of this. Maybe it's all an elaborate head trip ... my ego wants so badly to justify my identity
+    to the likes of my super conservative father ..."
+
+I mean I am a trans woman going through transition in her mid-fourties after having lost damn near
+everything in her life, and in the middle of a pandemic. It would stand to reason. Maybe this whole
+project was nothing more than my own cringy "tranny at the gamestop" moment.
+
+I literally had my terminal open, and was a keystroke from ssh'ing into the VM that hosts
+this site, somewhere out there in the cloud, and turning off the webserver.
+
+But I checked facebook first, and I saw Danielle's blog post (featured above), and it reminded me why
+I ever did this. Why it is so important for the world to know that embracing who you actually are in
+the face of unimaginable adversity is one of the most Christlike paths you could ever take.
+
+Christ is for you, with you, and in you as you walk this path, my friends. We are beloved of God, made in
+her image, perfectly and wonderfully.
+
+I closed my terminal window. Instead, I opened up the git repository, and started working on this next update you are
+reading now.
+
+This mission: even executed by such imperfect and somewhat ignorant hands as mine, is worth doing.
+
+
+
+
+== hmm  ... this is good but maybe bouncing off Jo Luehmann's "burn the leaves" quote from last week would be better ? ==
+My pastor said something this morning that has stuck with me:
+
+    "What the church, at least the Evangelical church I grew up in,
+    for years and years has offered people, is two things:
+
+    Certainty and Fear
+
+    Certainty, you cannot have -- it doesn't exist
+    and Fear ... you do. not. need."
+    https://youtu.be/yrDqZaS1sWA?t=895
+
+If people going through gender transition know anything, it's got to be this: "certainty, you cannot have".
+And I mean that is true in just about every way you can imagine. Everything changes. Every solid ground
+you could ever stand on is temporary, and can be washed away tomorrow.
+
+But I would argue that, within that uncertainty, there is a kind of certainty. Like, once you've made friends
+with the indeterminate nature it all, once you've pushed through the fear that surrounds it, that you can maybe
+at least know this much to be true:
+
+    Nature is no accident
+    Nature is benevolent, on the whole
+    Your transgender identity is natural
 
 
 
@@ -41,10 +203,12 @@ reasonable person would walk far far away from that ignorance.
 For the past few months, I've had a nagging at the back of my mind. <i>just take the
 site down, let it go</i>. Maybe this was just one of the many, many embarrassing stages of my
 transition. Hey it happens, man. Doing a second pass at puberty in your mid-fourties is just
-exactly as cringeworthy as you might imagine.
+exactly as cringeworthy as you might imagine.\
 
 but then ...
 
+
+== nice poetry maybe ==
 7/1/21
 
 Transition is a fire, clearing the way for the most durable tree in the forest to bloom and grow without limit. The part of you that remains is the part of you that cannot be destroyed. That soul in you that always was, and always will be.

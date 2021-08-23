@@ -305,6 +305,14 @@ p.poetry {
     background-size: 33%;
     background-position: 15em 12em;
 }
+p.actualQuote {
+    font-family: Comfortaa;
+    white-space: pre;
+    font-size: 1.25em;
+    margin-left: 2em;
+    border-left: .25em solid rgb(230, 0, 161);
+    padding-left: 1em;
+}
 p.microQuote {
     font-size: 1.6em;
     max-width: 66%;
@@ -320,7 +328,7 @@ p.bigQuote {
     border-left: .25em solid rgb(230, 0, 161);
     padding-left: 1em;
 }
-p.miniQuote a, p.bigQuote a {
+p.miniQuote a, p.bigQuote a, p.actualQuote a {
     font-family: Comfortaa;
     color: rgb(230, 0, 161);
 }
