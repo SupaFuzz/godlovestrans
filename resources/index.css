@@ -206,6 +206,15 @@ body {
     border: 2px solid rgb(0, 101, 179);
     height: 278px;
 }
+.callout[data-author="agapeATL"] {
+    background: url('./gfx/agapeAtlLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
 .callout[data-author="robBell"] {
     background: url('./gfx/loveWinsLink.png');
     background-repeat: no-repeat;
