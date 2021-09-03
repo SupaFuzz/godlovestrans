@@ -236,6 +236,7 @@ body {
     left: -.45em;
     padding-left: .75em;
 }
+
 .callout[data-author="ahicox"] .authorMeta {
     position: relative;
     top: 10.5em;
@@ -328,7 +329,7 @@ p.bigQuote {
     border-left: .25em solid rgb(230, 0, 161);
     padding-left: 1em;
 }
-p.miniQuote a, p.bigQuote a, p.actualQuote a {
+p.miniQuote a, p.bigQuote a, p.actualQuote a, .siteInfo a, .articleMeta a {
     font-family: Comfortaa;
     color: rgb(230, 0, 161);
 }
@@ -477,4 +478,20 @@ hr {
     margin: .5em;
     padding: .5em;
     background-color: white;
+}
+.siteInfo {
+    font-family: Comfortaa;
+    margin: 4em .5em 4em .5em;
+    padding: 1em;
+    border-radius: 2em;background: url('./gfx/info_icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.siteInfo .article {
+    background: linear-gradient(to right, rgba(240, 240, 240, 0), rgba(240, 240, 240, .15));
+    padding: 1em;
+    color: rgb(240, 240, 240);
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    text-align: right;
 }
