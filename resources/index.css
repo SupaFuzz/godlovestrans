@@ -215,6 +215,24 @@ body {
     border: 2px solid rgb(0, 101, 179);
     height: 278px;
 }
+.callout[data-author="gayChurch"] {
+    background: url('./gfx/gayChurchLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
+.callout[data-author="whereTrueLoveIs"] {
+    background: url('./gfx/whereTrueLoveIsLink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 1.5em;
+    border: 2px solid rgb(0, 101, 179);
+    height: 278px;
+}
 .callout[data-author="robBell"] {
     background: url('./gfx/loveWinsLink.png');
     background-repeat: no-repeat;
