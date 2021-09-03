@@ -18,7 +18,7 @@ body {
 }
 .titleCard {
     font-family: Comfortaa;
-    width: 100%;
+    /*width: 100%;*/
     padding: 1em;
     position: sticky;
     top: 0;
@@ -27,10 +27,36 @@ body {
     z-index: 99;
     border-bottom: 1px solid rgba(227, 227, 227, .3);
 }
+.toggleOnScroll {
+    overflow: hidden;
+    transition: max-height 1s ease-in-out .45s;
+}
 .glt {
     font-size: 3em;
     margin: 0;
     padding: 0;
+    cursor: default;
+    user-select: none;
+}
+.titleCard[data-collapse="false"] .glt .handle{
+    opacity: 0;
+}
+.glt .handle {
+    font-size: .66em;
+    font-weight: bolder;
+    font-family: 'Comfortaa';
+    color: rgb(217,217,217);
+    margin: .5em;
+    padding: 0 .5em 0 .5em;
+    border-radius: .35em;
+    border: 2px solid rgb(217,217,217);
+    background-color: rgba(217,217,217, .2);
+    opacity: 1;
+    transition: opacity 1s ease-in-out .45s;
+    position: absolute;
+    right: 0;
+    cursor: default;
+    opacity: .35;
 }
 .sbh {
     margin: 0;
@@ -78,6 +104,11 @@ body {
 
 .callout[data-author="mad"]{
     background: url('./gfx/mad.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.callout[data-author="ellaRoseDemars"] {
+    background: url('./gfx/ellaRoseDemars_profile.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -200,13 +231,33 @@ body {
     background-color: rgba(0,0,0, .5);
 }
 .callout[data-author="ahicox"] .author {
+    position:relative;
+    top: .65em;
+    left: -.45em;
     padding-left: .75em;
 }
 .callout[data-author="ahicox"] .authorMeta {
     position: relative;
-    top: -5em;
-    right: -3em;
+    top: 10.5em;
+    right: 0;
     z-index: 0;
+}
+.callout[data-author="ellaRoseDemars"] .author {
+    position:relative;
+    text-align: right;
+    left: 3em;
+    top: -.25em;
+}
+.callout[data-author="ellaRoseDemars"] .authorMeta {
+    position: relative;
+    top: 11em;
+    z-index: 0;
+    left: -2.5em;
+    text-align: right;
+    color: rgb(57, 57, 57);
+    font-weight: bolder;
+    display: inline-block;
+    width: 100%;
 }
 .callout {
     float: left;
@@ -242,6 +293,26 @@ body {
 p.miniQuote {
     font-size: 2em;
 }
+p.poetry {
+    font-family: Roboto;
+    white-space: pre;
+    font-size: .85em;
+    border-left: .25em solid rgb(217,217,217);
+    padding-left: 2em;
+    margin-left: 2em;
+    background: url(./gfx/poetic_bknd.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: 15em 12em;
+}
+p.actualQuote {
+    font-family: Comfortaa;
+    white-space: pre;
+    font-size: 1.25em;
+    margin-left: 2em;
+    border-left: .25em solid rgb(230, 0, 161);
+    padding-left: 1em;
+}
 p.microQuote {
     font-size: 1.6em;
     max-width: 66%;
@@ -256,6 +327,10 @@ p.bigQuote {
     margin-left: 4em;
     border-left: .25em solid rgb(230, 0, 161);
     padding-left: 1em;
+}
+p.miniQuote a, p.bigQuote a, p.actualQuote a {
+    font-family: Comfortaa;
+    color: rgb(230, 0, 161);
 }
 p.medPimpin {
     font-size: 1.25em;
@@ -390,4 +465,15 @@ hr {
 
 .comfortaa {
     font-family: Comfortaa;
+}
+
+.gfxFloatCtr {
+    border-color:transparent;
+    display: inline-block;
+    float: right;
+    border-radius: 1em;
+    overflow:hidden;
+    margin: .5em;
+    padding: .5em;
+    background-color: white;
 }
