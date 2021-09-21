@@ -1,34 +1,64 @@
 <div class="articleContainer">
     <div class="article">
-        <div class="callout" data-author="mad">
+        <div class="callout" data-author="ahicox">
             <div class="author">
-                First <br>Middle<br>Last
+                First<br>
+                Middle<br>
+                Last
             </div>
             <div class="authorMeta">
-                (occupation), <br>
-                (thang)
+                occupation, <br>
+                place or whatever
             </div>
-
         </div>
         <div class="articleBody">
-            <p class="miniQuote">something pithy goes here</p>
-            <p class="medPimpin">the bit that draws you in goes here ...</p>
-            <p class="fold">
-                /*
-                    the body goes here. collapse/expand is managed by the toggler in the footer
-                */
-                <h3>the whole thing goes here</h3>
+            <p class="miniQuote">Headline</p>
+            <p class="medPimpin">
+                possibly multiline<br>
+                <span class="highlight">summary quote</strong><br>
             </p>
+
+            <div class="fold">
+                <p class="miniQuote">
+                    start it big, if ya can
+                </p>
+                <p>
+                    have a lil paragraph
+                </p>
+                <p>
+                    or two
+                </p>
+                <p class="miniquote">
+                    perhaps a quote: <span class="highlight">with emphasis</spam>
+                </p>
+                </p>
+                <p class="actualQuote">
+"or a
+preformatted
+quote
+or what have
+    you"
+                </p>
+                <p>
+                    another paragtaph or two
+                    <span class="lowlight">with alternate emphasis</span>
+                </p>
+                <p class="bigQuote">
+                    at lease one big quote
+                </p>
+                <p>
+                    another paragraph
+                </p>
+            </div> <!-- end of the fold -->
         </div>
         <div class="articleMeta">
             <div class="hdr">
                 <button class="articleToggler"><span class="action">read</span></button>
-                <h3 class="title">The Title goes here <span class="lowlight">| Feb 1, 2021</span></h3>
+                <h3 class="title">The Title <span class="lowlight">| The Date</span></h3>
             </div>
-            by (titles) name (pronouns)<br>
-            (occupation), <a href="https://godlovestrans.org/" class="highlight">A Link to your thang</a><br>
-            (additional stuff)<br>
-            (email)
+            by The Person (the/pronouns)<br>
+            <i>the thang they do</i><br>
+            a way contact them
         </div>
     </div>
 </div>
